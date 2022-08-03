@@ -2,10 +2,10 @@ import React from 'react'
 import '../../styles/styles.css'
 import { Form, Button } from 'react-bootstrap'
 
-export default function AddFilm() {
+export default function UpdateHero() {
   return (
     <div>
-         <div className="edit-container">
+    <div className="edit-container">
     <p className="table-title">Add Hero</p>
     <Form>
     <Form.Group className='header-add-film'>
@@ -20,7 +20,7 @@ export default function AddFilm() {
     </Form.Group>
     <Button variant="danger" type="submit" className="button-login-login mt-3">Save</Button>
     </Form>
-</div>
+        </div>
     </div>
   )
 }

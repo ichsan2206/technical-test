@@ -9,7 +9,7 @@ function Product() {
             <Container className='ms-0'>
                 <Row>
                         <Col lg={4} md={4} sm={8} xs={12}>
-                            <Card className="product-card mb-2">
+                            <Card className="product-card mb-2" as={Link} to='/detail'>
                                 <Card.Img variant="top" src="https://exp.itemku.com/wp-content/uploads/2021/12/yu-zhong-mobile-legends-black-fierce-dragon-hd-1024x576.webp"className='product-image' />
                                 <Card.Body>
                                     <Link style={{ textDecoration: 'none' }} as={Link} to="#">
